@@ -63,7 +63,7 @@ resource "azurerm_app_service_environment_v3" "example" {
   }
 
   tags = {
-    env         = "production"
+    env         = "development"
     terraformed = "true"
   }
 }
